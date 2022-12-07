@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "montserrat";
+    src: url('Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "source-serif-pro";
+    src: url('SourceSerifPro-Light.ttf');
+}
+
+*
+{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: border-box;
+    font-size: 18px;
+    font-family:"source-serif-pro";
+}
+
+h3{
+    font-size: 31px;
+    font-family:"montserrat";
+}
+nav
+{
+    height: 80px;
+    background-color: #f6f2f4;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.logo img
+{
+    height: 40px;
+    width:40px;
+    margin:25px;
+}
+.links ul 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.links ul li
+{
+    padding-right: 30px;
+}
+
+.second
+{
+    height: 400px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#dfe3df;
+}
+.pic-left img
+{
+    margin:80px;
+    height: 300px;
+    width: 250px;
+}
+.pic-right img
+{
+    margin-right:80px;
+    height: 300px;
+    width: 250px;
+}
+p{
+    font-size: 25px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+.par
+{
+    font-size: 25px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.third 
+{
+    margin:30px;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.gallery1
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+.gallery img{
+    width: 240px;
+ margin-top:80px;
+ margin-bottom: 50px;
+    height: 300px;
+    text-align: center;
+}
+
+.gallery1 .item img{
+    width: 240px;
+    margin-top:80px;
+    margin-bottom: 50px;
+       height: 300px;
+       text-align: center;
+}
+
+.gallery1 .item
+{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.view
+{
+    text-align: center;
+}
+.view button 
+{
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+    padding:10px;
+}
+
+.footer
+{
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #f6f2f4;
+}
+.forth
+{
+    background-color: #ded7d1;
+}
+.fifth
+{
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+.gallery1
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .gallery1
+    {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+      }
